@@ -1,22 +1,21 @@
-.conference_wrap {
+.conference-wrap {
     padding-top: 63px;
     padding-bottom: 77.5px;
 }
 
-.conference_top_content {
+.conference-top-content {
     display: flex;
     justify-content: space-between;
 }
 
-.conference_content_left {
+.conference-content-left {
     display: flex;
     flex-direction: column;
 }
 
-.conference_title {
+.conference-title {
     font-family: GothamProBold;
     font-size: 25px;
-    font-style: normal;
     font-weight: 700;
     line-height: 23px;
     letter-spacing: 0em;
@@ -24,12 +23,11 @@
     margin-top: 25px;
     margin-bottom: 40px;
     background-color: white;
+    text-transform: uppercase;
 }
 
-.conference_content {
-    font-family: GothamPro;
+.conference-content {
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0em;
@@ -37,7 +35,7 @@
     text-align: justify;
 }
 
-.conference_content_img {
+.conference-content-img {
     margin-top: -10px;
     margin-right: -20px;
     filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.05)) drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));

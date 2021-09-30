@@ -1,0 +1,58 @@
+.conference-places {
+    background: url(../img/places-background.svg) no-repeat center;
+    background-size: cover;
+    padding: 120px 0px 212px;
+}
+
+.conference-places-title {
+    font-family: GothamPro700;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 84px;
+}
+
+.conference-places-list {
+    display: flex;
+}
+
+.conference-place {
+    background-size: cover;
+    flex: 0 1 25%;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.conference-place:nth-child(1) {
+    background: url(../img/place1.svg) no-repeat center;
+}
+
+.conference-place:nth-child(2) {
+    background: url(../img/place2.svg) no-repeat center;
+}
+
+.conference-place:nth-child(3) {
+    background: url(../img/place3.svg) no-repeat center;
+}
+
+.conference-place:nth-child(4) {
+    background: url(../img/place4.svg) no-repeat center;
+}
+
+.conference-place:not(:last-child) {
+    margin-right: 30px;
+}
+
+.conference-place-name {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0px 19px 25px;
+}

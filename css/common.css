@@ -6,46 +6,30 @@ html {
     box-sizing: inherit;
 }
 
+* {
+    font-family: GothamPro;
+    font-style: normal;
+}
+
 .wrapper {
     max-width: 1170px;
     margin: 0 auto;
 }
 
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''), url('../fonts/roboto-v29-cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('../fonts/roboto-v29-cyrillic-regular.woff') format('woff');
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+.btn {
+    padding-top: 19.67px;
+    padding-bottom: 17.33px;
+    padding-left: 58.5px;
+    padding-right: 58.5px;
+    background: #DBA682;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
 }
 
-/* Gotham Pro Bold */
-
-@font-face {
-    font-family: 'GothamProBold';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''), url('../fonts/GothamProBold.woff') format('woff');
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-}
-
-/* Gotham Pro Regular */
-
-@font-face {
-    font-family: 'GothamPro';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''), url('../fonts/GothamProRegular/GothamProRegular.woff') format('woff');
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-}
-
-/* Gotham Pro Regular 700 */
-
-@font-face {
-    font-family: 'GothamPro700';
-    font-style: normal;
-    font-weight: 700;
-    src: local(''), url('../fonts/GothamProRegular/GothamProRegular.woff') format('woff');
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
+.btn:hover, .btn:focus, .btn:active {
+    background: #a38383;
 }

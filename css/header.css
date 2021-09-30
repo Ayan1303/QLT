@@ -4,7 +4,7 @@
     width: 100%;
 }
 
-.header_wrapper {
+.header-wrapper {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -30,32 +30,30 @@
 .countdown li div {
     margin: 0;
     color: #FFFFFF;
-    font: 11px Gotham Pro;
+    font-size: 11px;
 }
 
-.countdown_title {
+.countdown-title {
     display: flex;
     justify-content: center;
 }
 
-.translate_wrapper {
+.translate-wrapper {
     display: flex;
 }
 
-.translate_item {
+.translate-item {
     padding: 12px 9.36px;
     border: 1px solid #fff;
-    border-color: #fff !important;
     color: white;
+    cursor: pointer;
 }
 
-.translate_item:not(:last-child) {
+.translate-item:not(:last-child) {
     margin-right: 16.28px;
 }
 
-.translate_item_button {    
-    font-family: GothamPro;
-    font-style: normal;
+.translate-item-button {
     font-weight: 700;
     font-size: 14px;
     line-height: 13.4px;
@@ -63,7 +61,7 @@
     color: inherit;
 }
 
-.translate_item:hover, .translate_item:focus, .translate_item:active {
+.translate-item:hover, .translate-item:focus, .translate-item:active, .translate-item-selected {
     background-color: #fff;
     color: #17376A;
 }
