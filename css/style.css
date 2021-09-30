@@ -380,7 +380,7 @@ html{
  }
 
  .header{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -416,7 +416,7 @@ html{
    color: white;
    border: none;
    margin-left: 12px;
-   font-family: Gotham Pro;
+   font-family: GothamPro;
    font-style: normal;
    font-weight: 700;
    font-size: 14px;
@@ -443,13 +443,13 @@ html{
    .countdown li span{
    width:100%;
    color:#FFFFFF;
-   font:55px Gotham Pro Bold;
+   font:55px GothamProBold;
    display:inline-block;}
    
    /* разделители . и : */	
    .countdown li.seperator {
    color:#FFFFFF;
-   font:40px Gotham Pro Bold;
+   font:40px GothamProBold;
    vertical-align:top;} 
       
    .countdown li div{
@@ -468,6 +468,7 @@ html{
    }
 
    /* Intro styles stop */
+   
    .nav {
       font-size: 18px;
       text-transform: uppercase;
@@ -489,7 +490,7 @@ html{
       
    }
    .nav_link{
-      font-family: Gotham Pro;
+      font-family: GothamPro;
       font-size: 18px;
       font-style: normal;
       font-weight: 700;
@@ -552,6 +553,58 @@ html{
    .card_more:hover, .card_more:focus, .cardMore:active {
       background: #a38383;
    }
+
+
+   /* Conferecne styles start */
+   .conference_wrap {
+      background-color: #F8F8FC;
+      margin: 0 auto;
+   }
+   .conference_title {
+      font-family: GothamProBold;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 23px;
+      letter-spacing: 0em;
+      text-align: justified;
+      margin-top: 87.77px;
+      background-color: white;
+   }
+
+   .conference_content {
+      font-family: GothamPro;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: justified;
+      background-color: white;
+
+   }
+
+   .conference_content1_wrap {
+      height: 220px;
+      width: 585px;
+      left: 375px;
+      top: 1150.537841796875px;
+      border-radius: nullpx;
+
+   }
+   
+   .conference_content_img {
+      position: absolute;
+      width: 544.39px;
+      height: 307.77px;
+      left: 1000.61px;
+      top: 1062.77px;
+      background-color:white;
+      filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.05)) drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));
+   }
+   /* Conference styles stop */
+
+
    /* FONTS */
    
    /* roboto-regular - cyrillic */
@@ -565,7 +618,7 @@ html{
  }
    /* Gotham Pro Bold */
  @font-face {
-   font-family: 'Gotham Pro Bold';
+   font-family: 'GothamProBold';
    font-style: normal;
    font-weight: 400;
    src: local(''),
@@ -573,7 +626,7 @@ html{
  }
    /* Gotham Pro Regular */
  @font-face {
-   font-family: 'Gotham Pro';
+   font-family: 'GothamPro';
    font-style: normal;
    font-weight: 400;
    src: local(''),
@@ -582,7 +635,7 @@ html{
 
  /* Gotham Pro Regular 700 */
  @font-face {
-   font-family: 'Gotham Pro 700';
+   font-family: 'GothamPro700';
    font-style: normal;
    font-weight: 700;
    src: local(''),
