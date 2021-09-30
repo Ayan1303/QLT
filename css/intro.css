@@ -1,0 +1,89 @@
+
+.intro {
+    background: url(../img/Group15.png) no-repeat center;
+    background-color: #0C4257;
+    background-size: cover;
+    padding-top: 328px;
+    padding-bottom: 230px;
+}
+
+.intro_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    margin-top: 57px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_item {
+
+}
+
+.nav_item:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+.nav_link {
+    font-family: GothamPro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline;
+    vertical-align: top;
+    color: white;
+    text-decoration: none;
+}
+
+.nav_link:hover, nav_link:active, nav_link:focus {
+    color: rgba(102, 102, 102, 0.685);
+}
+
+.logotype1 {
+}
+
+.content {
+    max-width: 700px;
+    margin-left: 45px;
+}
+
+.content_text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: white;
+    margin-top: 25.5px;
+    margin-bottom: 25.5px;
+}
+
+.card_more {
+    padding-top: 19.67px;
+    padding-bottom: 17.33px;
+    padding-left: 58.5px;
+    padding-right: 58.5px;
+    background: #DBA682;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+}
+
+.card_more:hover, .card_more:focus, .cardMore:active {
+    background: #a38383;
+}
